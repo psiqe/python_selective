@@ -41,10 +41,12 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
 ]    
 THIRD_PARTY_APPS = [
-    "rest_framework",    
+    "rest_framework",
+    "django_filters",   
 ]
 PROJECT_APPS = [
     "accounts",
+    "products",
 ]
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS
 
@@ -120,6 +122,11 @@ SIMPLE_JWT = {
     'AUTH_HEADER_NAME': 'HTTP_AUTHORIZATION',
 
     'AUTH_TOKEN_CLASSES': ('rest_framework_simplejwt.tokens.AccessToken',)
+}
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': (
+        'django_filters.rest_framework.DjangoFilterBackend',
+    ),
 }
 
 # Internationalization
