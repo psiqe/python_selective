@@ -1,17 +1,15 @@
 <h1>Advance payment</h1>
 <div>
 <h2>
-    <a href="">  
+    <a href="https://selective-python-shop-game.onrender.com/api/">  
         Link for the API 
     </a>
-
-
 
 ## 📕 About
 Desafio
 
 
-## [📖 Docs]()
+## [📖 Docs](https://selective-python-shop-game.onrender.com/api/docs/swagger-ui/)
 
 ## 🛠️ Tools
 - [Python](https://nodejs.org/en/)
