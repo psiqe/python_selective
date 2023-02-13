@@ -1,7 +1,7 @@
 <h1>Shop Game</h1>
 <h3><h3>
 <div>
-<h2>
+<h2><<<<<<< develop
     <a href="https://selective-python-shop-game.onrender.com/">  
         Link API
     </a>
@@ -9,6 +9,7 @@
 </h2>
 
 ## 📕 About
+
 Projeto consiste em um sistema de e-commerce de jogos. O usuário além de ter o necessário para criação e gestão de conta, consegue adicionar produtos a um carrinho de compras (Cart), onde pode ser checado, verificando valor dos produtos, frete e valor total.
 
 O Projeto foi criado em Python usando o framework do DjangoREST, utilizando ferramentas como ordering e filter para listagem especifica de produtos.
@@ -48,7 +49,6 @@ Este projeto serve como base para a construção de sistemas de e-commerce mais 
 # Start App
     $ python manage.py runserver
 ```
-
 
 
 # URLS, Methods and Functionalities
