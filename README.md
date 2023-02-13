@@ -1,7 +1,7 @@
 <h1>Shop Game</h1>
 <h3><h3>
 <div>
-<h2><<<<<<< develop
+<h2>
     <a href="https://selective-python-shop-game.onrender.com/">  
         Link API
     </a>
